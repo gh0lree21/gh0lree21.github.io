@@ -30,7 +30,7 @@ h4{
     background-color: #327D9A;
 }
 .logo{
-    width: 80px;
+    width:80px;
 }
 #logo_link {
     padding-top: 5px;
@@ -133,7 +133,7 @@ footer .social img {
 }
 footer h3{
     color:#012A4A;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer a{
     color:#012A4A;
