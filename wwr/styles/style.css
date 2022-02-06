@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;700&family=Recursive&family=Red+Rose&display=swap');
+
 body{
     background-color:#EBEBEB;
+    font-family: "Recursive", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #327D9A;
 }
 .home-title{
     color: #012A4A;
+    font-family: "Advent Pro", arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+main section image {
+    box-sizing: border-box;
+}
+h2 {
+    margin: 0;
 }
 h4{
     color:#012A4A;
@@ -17,22 +32,31 @@ h4{
 .logo{
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon{
     width:80px;
+    padding-top: 10px;
 }
 nav a{
     text-align: center;
     color: #EBEBEB;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #A9D6E5;
     color: #012A4A;
 }
-.book{
+.book {
     background-color: #327D9A;
     color:#012A4A;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #A9D6E5;
@@ -42,10 +66,26 @@ nav a:hover{
     background-color: #327D9A;
     color:#012A4A;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color: #A9D6E5;
     color:#013A63;
+}
+.card-img {
+    border: 10px solid black;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
 }
 #content{
     max-width: 1600px;
@@ -63,12 +103,17 @@ nav a:hover{
 }
 .msg{
     background-color: #C2C2C2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color:#012A4A;
+    font-family: "Recursive", arial, sans-serif;
 }
 .msg p{
     color:#012A4A;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .button-box{
     text-align: center;
@@ -80,6 +125,11 @@ main section{
 }
 footer{
     background-color: #327D9A;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer h3{
     color:#012A4A;
