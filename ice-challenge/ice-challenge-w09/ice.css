@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+h1 { 
+    color: #005A9C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+h2 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+.main {
+    background-color: white;
+    grid-column: 2/3;
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    overflow: hidden;
+    
+    
+}
+img {
+    width: 100%;
+}
+p {
+    margin: 0px 50px 20px 50px;
+}
+
+.stats {
+    background-color: #005A9C;
+    color:beige;
+    grid-column: 2/3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Noto Serif Display', serif;
+    text-transform: uppercase;
+    
+}
