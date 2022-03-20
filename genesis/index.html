@@ -5,42 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Genesis of Grant</title>
     
 </head>
 <body>
-    <a href="index.html" id="logo-link">
-        <img class="logo" src="images/personal-site-logo.png" alt="logo">
-    </a>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="employers.html">Employers</a>
-        <a href="biography.html">About Me</a>
-    </nav>
+    <header>
+        <a href="index.html" id="logo-link">
+            <img class="logo" src="images/personal-site-logo.png" alt="logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="employers.html">Employers</a>
+            <a href="biography.html">About Me</a>
+        </nav>
+    </header>
     <div id="content">
-        <header>
-            <div id="hello-world-img">
-                <img src="images/hello.jpg" alt="hello">
+        <div class="hello-container">
+            <img src="images/hello.jpg" alt="Hello" class="image">
+            <div class="hello-overlay">
+              <div class="text">
+                <h2 class="heading">Welcome to my Home</h2>
+                <h3>"There will be obstacles. There will be doubters. There will be mistakes. But with hard work, there are no limits." - Michael Phelps</h3>
+              </div>
             </div>
-            <div id="hello-world-msg">
-                <h2>Welcome to my Home</h2>
-                <h3>There will be obstacles. There will be doubters. There will be mistakes. But with hard work, there are no limits. - Michael Phelps</h3>
-            </div>
-        </header>
+          </div>
+
         <main class="home-grid">
-            <div id="subpage-links">
-                <a href="employers.html" id="subpage-employers">
-                    <img src="images/handshake.jpg" alt="person offering a hand">
-                    <h4>Employers</h4>
-                </a>
-                <a href="biography.html" id="subpage-bio">
-                    <img src="images/bio-pic.jpg" alt="open book">
-                    <h4>Bio</h4>
-                </a>
-            </div>
+            <a class="flip-box" href="employers.html" id="subpage-employers">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                            <img src="images/handshake.jpg" alt="person offering a hand">
+                    </div>
+                    <div class="flip-box-back">
+                        <h2 class="heading">Employers</h2>
+                    </div>
+                </div>
+            </a>
+            <a class="flip-box" href="biography.html" id="subpage-bio">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="images/rsz_bio-pic.jpg" alt="open book">
+                    </div>
+                    <div class="flip-box-back">
+                            <h2 class="heading">About Me</h2>
+                    </div>
+
+                </div>
+            </a>
             <div id="background-block"></div>
             <div id="sell-yourself">
-                <p>Hi, I'm Grant Holley. You've probably come here asking, ‘Who is Grant Holley?’ ‘Why does he think I should hire him?’ 
+                <h2>Hi, I'm Grant Holley</h2>
+                <p>You've probably come here asking, ‘Who is Grant Holley?’ ‘Why does he think I should hire him?’ 
                     or, ‘Does he meet the criteria for the job he is applying for?’ My hope is that I've created a place that you can find
                     answers to those questions. If that's not why you're here, I hope you enjoy yourself anyway.
                     This being a formal introduction, I offer my virtual handshake as it were.
