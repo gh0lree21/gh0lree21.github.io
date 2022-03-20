@@ -50,14 +50,14 @@ body {
 .hello-container {
     position: relative;
     width: 100%;
-    /* margin-top: -100px; */
-  }
+    box-shadow: 5px 5px 5px black;
+}
   
 .image {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
   
 .hello-overlay {
     position: absolute;
@@ -70,11 +70,11 @@ body {
     opacity: 0;
     transition: 1s ease;
     background-color: black;
-  }
+}
   
 .hello-container:hover .hello-overlay {
     opacity: .8;
-  }
+}
   
 .text {
     color: white;
@@ -86,7 +86,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 .home-grid {
     display: grid;
@@ -159,6 +159,7 @@ footer {
     margin-top: 200px;
     align-items: center;
     padding: 20px;
+    border: 1px solid black;
 }
 footer .social {
     font-size: 2em;
