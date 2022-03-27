@@ -10,6 +10,18 @@ header {
     opacity: 95%;
     display: grid;
     grid-template-columns: 125px auto;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+}
+header nav a {
+    border-bottom: 3px solid transparent;
+}
+header nav a:hover {
+    border-bottom: 3px solid #84DCC6;
+}
+header nav a.active {
+    border-bottom: 3px solid #84DCC6;
 }
 #logo-link {
     padding: 5px;
@@ -175,5 +187,136 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Employers CSS */
+
+
+.employers-container {
+    position: relative;
+    width: 100%;
+    box-shadow: 5px 5px 5px black;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.employers-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: black;
+}
+  
+.employers-container:hover .employers-overlay {
+    opacity: .8;
+}
+#employers-msg h2 {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 3px;
+}
+#employers-msg h3{
+    color: white;
+    font-size: 1.4em;
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 1px;
+}
+#employers-msg h4{
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 78%;
+    left: 75%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 1px;
+}
+.employers-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 250px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.projects {
+    text-align: center;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.projects img {
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+#python-icon {
+    border: 1px solid black;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+#ed-background {
+    margin-top: 50px;
+    background-color: #4B4E6D;
+    width: 80%;
+    height: 700px;
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 5px black;
+}
+#ed-contents {
+    margin-top: 70px;
+    margin-left: 80px;
+    width: 80%;
+    height: 600px;
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 25px;
+}
+.ed-header {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    margin-top: 300px;
+    border-bottom: 1px solid black;
+}
+#experience {
+    line-height: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+#university-logos {
+    margin-top: 40px;
+}
+#university-logos img {
+    width: 300px;
+    box-shadow: 2px 2px 2px black;
+}
 
 

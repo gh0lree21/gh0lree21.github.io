@@ -6,67 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>For Employers - Genesis</title>
+    <link rel="stylesheet" href="styles/styles.css">
     
 </head>
 <body>
-    <a href="index.html" id="logo-link">
-        <img class="logo" src="images/personal-site-logo.png" alt="logo">
-    </a>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="employers.html">Employers</a>
-        <a href="biography.html">About Me</a>
-    </nav>
+    <header>
+        <a href="index.html" id="logo-link">
+            <img class="logo" src="images/personal-site-logo.png" alt="logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="employers.html">Employers</a>
+            <a href="biography.html">About Me</a>
+        </nav>
+    </header>
     <div id="content">
-        <header>
-            <div id="employers-img">
-                <img src="images/computer-desk.jpg" alt="laptop with code">
+        <div class="employers">
+            <div class="employers-container">
+                <img src="images/computer-desk.jpg" alt="laptop with code" class="image">
+                <div class="employers-overlay">
+                <div id="employers-msg">
+                    <h2 class="heading">For Employers</h2>
+                    <h3>"Don't work for recognition but do work worthy of recognition"</h3>
+                    <h4>- H. Jackson Brown, Jr.</h4>
+                </div>
+                </div>
             </div>
-            <div id="employers-msg">
-                <h2>For Employers</h2>
-                <h3>Don't work for recognition but do work worthy of recognition - H. Jackson Brown, Jr.</h3>
-            </div>
-        </header>
+        </div>
         <main class="employers-grid">
-            <div class="projects">
-                <a href="#" target="_blank">
-                    <img src="images/python-icon.jpg" alt="Python symbol">
-                    <h3>Python Projects</h3>
-                </a>
-                <a href="#" target="_blank">
-                    <img src="images/teamwork.jpg" alt="A team">
-                    <h3>Team Projects</h3>
-                </a>
-                <a href="#" target="_blank">
-                    <img src="images/dark_background_code.jpg" alt="Web Design">
-                    <h3>Web Design</h3>
-                </a>
-            </div>
+            <a href="#" target="_blank" class="projects">
+                <img src="images/teamwork.jpg" alt="A team">
+                <h3>Team Projects</h3>
+            </a>
+            <a href="#" target="_blank" class="projects">
+                <img id="python-icon" src="images/python-logo.jpg" alt="Python symbol">
+                <h3>Python Projects</h3>
+            </a>
+            <a href="#" target="_blank" class="projects">
+                <img src="images/dark_background_code.jpg" alt="Web Design">
+                <h3>Web Design</h3>
+            </a>
             <h2 class="ed-header">Formal Education and Job Experience</h2>
             <div id="ed-background"></div>
             <div id="ed-contents">
                 <ul id="experience">
-                    <li>B.S. Software Engineering - BYU-I</li>
+                    <li>B.S. Software Engineering - BYU-I
                         <ul>
                             <li>4.0 GPA - Graduate 2023</li>
                         </ul>
-                    <li>A.S. University Studies - UVU</li>
+                    </li>
+                    <li>A.S. University Studies - UVU
                         <ul>
                             <li>3.8 GPA - Graduated 08/2021 High Honors, Dean's List</li>
                         </ul>
+                    </li>
                     <li>Internship - TBD</li>
-                    <li>Former employers:</li>
+                    <li>Former employers:
                         <ul>
                             <li>Beehive FCU</li>
                             <li>Glenwood Snacks</li>
                             <li>United Parcel Service</li>
                         </ul>
+                    </li>
                     <li>Served a 2-year mission for the Church of Jesus Christ of Latter-day Saints</li>
                 </ul>
-                <section id="university-logos">
+                <div id="university-logos">
                     <img src="images/byui.jpg" alt="BYU-I">
                     <img src="images/uvu.jpg" alt="UVU">
-                </section>
+                </div>
             </div>
 
         </main>
