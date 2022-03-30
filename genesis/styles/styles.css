@@ -4,6 +4,7 @@
     max-width: 1600px;
     margin: 0 auto;
     font-family: 'Martel', serif;
+    box-sizing: border-box;
 }
 header {
     background-color: #95A3B3;
@@ -224,7 +225,7 @@ footer a:hover {
     opacity: .8;
 }
 #employers-msg h2 {
-    color: white;
+    color: whitesmoke;
     font-size: 2em;
     position: absolute;
     top: 20%;
@@ -236,7 +237,7 @@ footer a:hover {
     letter-spacing: 3px;
 }
 #employers-msg h3{
-    color: white;
+    color: whitesmoke;
     font-size: 1.4em;
     position: absolute;
     top: 65%;
@@ -248,7 +249,7 @@ footer a:hover {
     letter-spacing: 1px;
 }
 #employers-msg h4{
-    color: white;
+    color: whitesmoke;
     font-size: 1.2em;
     position: absolute;
     top: 78%;
@@ -321,7 +322,7 @@ footer a:hover {
 }
 #experience {
     line-height: 50px;
-    color: white;
+    color: whitesmoke;
     letter-spacing: 1px;
 }
 #university-logos {
@@ -332,4 +333,92 @@ footer a:hover {
     box-shadow: 2px 2px 2px black;
 }
 
+/* biography */
+
+.bio-container {
+    position: relative;
+    width: 100%;
+    box-shadow: 5px 5px 5px black;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.bio-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: black;
+}
+  
+.bio-container:hover .bio-overlay {
+    opacity: .8;
+}
+#bio-msg {
+    color: whitesmoke;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 3px;
+}
+#bio-msg h2 {
+    font-size: 2em;
+}
+.bio {
+    margin-bottom: 200px;
+}
+.bio-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+.bio-main img {
+    width: 100%;
+    margin: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+#family {
+    padding: 70px;
+}
+#family h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+#things-background {
+    background-color: #4B4E6D;
+    grid-column: 1/-1;
+    width: 100%;
+    height: 700px;
+    grid-row: 2/3;
+    margin-top: 200px;
+}
+#need-to-know {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    margin-top: 250px;
+    color: whitesmoke;
+}
+#need-to-know h3 {
+    text-align: center;
+
+}
+#need-to-know ul {
+    margin-top: 50px;
+    line-height: 50px;
+    padding-left: 150px;
+}
 
