@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Martel&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,15 +8,18 @@
 }
 header {
     background-color: #95A3B3;
-    opacity: 95%;
     display: grid;
     grid-template-columns: 125px auto;
     font-weight: bold;
     font-family: 'Cinzel', serif;
     letter-spacing: 2px;
+    height: 122px;
 }
 header nav a {
     border-bottom: 3px solid transparent;
+    display:flex;
+    align-items: center;
+    
 }
 header nav a:hover {
     border-bottom: 3px solid #84DCC6;
@@ -25,13 +28,14 @@ header nav a.active {
     border-bottom: 3px solid #84DCC6;
 }
 #logo-link {
-    padding: 5px;
+    /* padding: 5px; */
     justify-self: center;
     align-self: center;
+    display: flex;
 }
 .logo {
     width: 80px;
-    padding-top: 7px;
+    /* padding-top: 7px; */
 }
 nav {
     display: flex;
